@@ -1,0 +1,112 @@
+.front-end-block.node-js {
+    background: #fec700
+}
+
+.front-end-block.node-js .block-with-border h1.front-heading,.front-end-block.node-js .block-with-border .start-time .start-date,.front-end-block.node-js .technologies ul.position_tech li::before {
+    color: #03784d
+}
+
+.front-end-block.node-js h4.profession {
+    border-color: #03784d
+}
+
+.front-end-block.node-js .buttons .btn.red {
+    background-color: #03784d
+}
+
+.front-end-block.node-js .play-button div {
+    background: #03784d;
+    -webkit-box-shadow: 4px 6px 17px 4px rgb(146 109 6 / 68%);
+    box-shadow: 4px 6px 17px 4px rgb(146 109 6 / 68%)
+}
+
+.front-end-block.node-js .red .btn__blobs div {
+    background-color: #03462e
+}
+
+.front-end-block.node-js .front-end-man {
+    right: -60px
+}
+
+.front-end-block.node-js #pictures-bg .picture-wall {
+    top: 230px;
+    left: 700px
+}
+
+.front-end-block.node-js #pictures-bg .light {
+    -webkit-animation: 7s lightShake linear infinite;
+    animation: 7s lightShake linear infinite;
+    transform-origin: top center
+}
+
+@keyframes lightShake {
+    0% {
+        transform: initial
+    }
+
+    25% {
+        transform: rotate(-15deg)
+    }
+
+    50% {
+        transform: rotate(0deg)
+    }
+
+    75% {
+        transform: rotate(15deg)
+    }
+
+    100% {
+        transform: initial
+    }
+}
+
+@media (min-width: 1210px) {
+    .front-end-block.node-js #pictures-bg .clock {
+        top:350px;
+        left: 400px
+    }
+
+    .front-end-block.node-js #pictures-bg .light {
+        top: 147px;
+        left: 100px
+    }
+}
+
+@media (max-width: 1209px) {
+    .front-end-block.node-js #pictures-bg .clock {
+        top:350px;
+        left: 500px
+    }
+
+    .front-end-block.node-js #pictures-bg .light {
+        top: 147px;
+        left: 200px
+    }
+}
+
+@media (max-width: 1024px) and (min-width:769px) {
+    .front-end-block.node-js .front-end-man {
+        left:350px
+    }
+}
+
+@media (max-width: 768px) {
+    .front-end-block.node-js .bottom-stuff {
+        height:483px
+    }
+
+    .front-end-block.node-js .front-end-man {
+        left: 100px
+    }
+}
+
+@media (max-width: 560px) {
+    .front-end-block.node-js .bottom-stuff {
+        height:560px
+    }
+
+    .front-end-block.node-js .front-end-man {
+        left: 0
+    }
+}
